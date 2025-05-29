@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+section#about {
+  position: relative;
+  z-index: 10;
+  background: white; /* or your preferred background */
+}
