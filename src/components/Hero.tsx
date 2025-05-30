@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
         }}
       >
         <div 
-          className="absolute inset-0 bg-[url('src/components/setton-3.png')] bg-cover bg-center opacity-70"
+          className="absolute inset-0 bg-[url('/image/setton-3.png')] bg-cover bg-center opacity-70"
           style={{
             backgroundAttachment: 'fixed',
             backgroundSize: 'cover'

@@ -28,9 +28,9 @@ Adam - Planet of Sports
 Fast, energetic, and loves a challenge.
 He learns from every game how to be a well-mannered and cooperative player.
 `,
-    imageUrl: "src/components/setton-1.png",
+    imageUrl: "/image/setton-1.png",
     color: "blue",
-    videoUrl: "src/components/كراهام.mp4"
+    videoUrl: "/image/كراهام.mp4"
     
   },
   {
@@ -38,7 +38,7 @@ He learns from every game how to be a well-mannered and cooperative player.
     name: "?",
     role: "?",
     description: ".....",
-    imageUrl: "src/components/setton-2 - Copy.png",
+    imageUrl: "/image/setton-2 - Copy.png",
     color: "orange",
     videoUrl: ""
   },
@@ -47,7 +47,7 @@ He learns from every game how to be a well-mannered and cooperative player.
     name: "?",
     role: "?",
     description: ".....",
-    imageUrl: "src/components/setton-2 - Copy.png",
+    imageUrl: "/image/setton-2 - Copy.png",
     color: "orange",
     videoUrl: ""
   },
@@ -56,7 +56,7 @@ He learns from every game how to be a well-mannered and cooperative player.
     name: "?",
     role: "?",
     description: ".....",
-    imageUrl: "src/components/setton-2 - Copy.png",
+    imageUrl: "/image/setton-2 - Copy.png",
     color: "orange",
      videoUrl: ""
   }
