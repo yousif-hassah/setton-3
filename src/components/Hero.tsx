@@ -53,6 +53,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { ArrowDown } from 'lucide-react';
 
+
 const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const backgroundRef = useRef<HTMLDivElement>(null);
@@ -95,7 +96,7 @@ const Hero: React.FC = () => {
         }}
       >
         <div 
-          className="absolute inset-0 bg-[url('/image/setton-3.png')] bg-cover bg-center opacity-70"
+          className="absolute inset-0 bg-[url('./components/image/setton-3.png')] bg-cover bg-center opacity-70"
           style={{
             backgroundAttachment: 'fixed',
             backgroundSize: 'cover'

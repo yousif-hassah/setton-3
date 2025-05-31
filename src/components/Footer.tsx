@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
               {/* <Zap className="text-yellow-400 h-8 w-8" /> */}
               <h2 className="text-2xl font-bold tracking-tighter">
                 {/* COMIC<span className="text-yellow-400">VERSEuuuuuu</span> */}
-                <img src="/image/image_2025-05-23_19-57-16-Photoroom.png" alt="" style={{width:"120px" ,height:"50px"}}/>
+                <img src="image_2025-05-23_19-57-16-Photoroom.pngnpmn " alt="" style={{width:"120px" ,height:"50px"}}/>
               </h2>
             </div>
             <p className="text-gray-300 mb-6">

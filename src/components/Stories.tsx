@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import ComicPanel from "./ComicPanel";
 import SpeechBubble from "./SpeechBubble";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
+import img1 from './image/71334e36a7f8010396776c577b67f272.jpg'
+import img2 from './image/fd9b7d129a6fed978932460044caa676.jpg'
+import img3 from './image/ae2fc982599a3019d7992c246f07b41f.jpg'
+import img4 from './image/685da4136e1f3edc3b46adac4ddf6761.jpg'
+import img5 from './image/a022c12c2c76a50a19d55e914403a707.jpg'
 interface Story {
   id: number;
   title: string;
@@ -19,7 +23,7 @@ const stories: Story[] = [
  تصير المنصة الأولى بالعراق لصناعة محتوى آمن، ممتع، ويفيد أطفالنا. مكان يلتقي بيه الخيال مع التربية، ونحچي بيه قصص تشبهم، بلغتهم، وبأسلوبه 
 
 إحنا نؤمن إنو كل طفل هو كوگب خاص بيه، عنده اهتماماته وشغفه—كوگب الرياضة، كوگب الرسم، كوگب البرمجة. ومن خلال محتوى مدروس، نحتضن هالتنوع ونشجّع كل طفل يكتشف نفسه ويبدع بطريقته`,
-    coverUrl: "/image/71334e36a7f8010396776c577b67f272.jpg",
+    coverUrl: img1,
     issue: 17,
   },
   {
@@ -29,7 +33,7 @@ const stories: Story[] = [
  مو بس منصة، هي فضاء نفتح بيه الأبواب لصنّاع المحتوى حتى يساهمون بصنع طفولة واعية، متعلمة، ومتصالحة ويا هويتها العراقية والإنسانية.
 
 متأثرين بروح سبيستون، بس جايين نكتب صفحة جديدة تخص أطفالنا، وتخليهم يشوفون نفسهم بالمحتوى بكل فخر.`,
-    coverUrl: "/image/fd9b7d129a6fed978932460044caa676.jpg",
+    coverUrl: img2,
     issue: 28,
   },
   {
@@ -40,7 +44,7 @@ const stories: Story[] = [
 Settonبـ 
  ، نفتح المجال إلك حتى تساهم بصناعة محتوى يخص ابنك، يعكس شخصيته، ويشجعه على التطوّر.                                 
 سواء تحبون تشاركون بأفكار، كتابة، صوت، أو حتى تشجيع... وجودكم ويانا يصنع فرق كبير.`,
-    coverUrl: "/image/ae2fc982599a3019d7992c246f07b41f.jpg",
+    coverUrl:img3,
     issue: 42,
   },
 
@@ -52,7 +56,7 @@ Settonبـ
 ويخلّيه يكتشف نفسه بثقة
           نكبر وياه  Setton بـ   
 `,
-    coverUrl: "/image/685da4136e1f3edc3b46adac4ddf6761.jpg",
+    coverUrl: img4,
     issue: 33,
   },
   {
@@ -61,7 +65,7 @@ Settonبـ
     excerpt: `Setton
  همّ فرصة حقيقية لكل جهة تحب تكون جزء من صناعة جيل جديد. عدنا مجال للتعاون ويا شركات، منظمات، أو أفراد يحبّون يدعمون صنّاع محتوى للأطفال بمحتوى نضيف، أصيل، وراقي.
 سواء كنت سبونسر إعلامي، تقني، أو حتى تعليمي—مكانك ويانه موجود، لأنّا نؤمن إنو مستقبل الأطفال... مسؤولية جماعية`,
-    coverUrl: "/image/a022c12c2c76a50a19d55e914403a707.jpg",
+    coverUrl: img5,
     issue: 50,
   },
 ];

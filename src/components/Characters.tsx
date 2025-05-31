@@ -4,7 +4,7 @@ import SpeechBubble from './SpeechBubble';
 import VideoModal from './VidoModal';
 import setton1 from './image/setton-1.png'
 import setton2 from './image/setton-2 - Copy.png'
-import video1 from './image/كراهام.mp4'
+import video1 from './image/adem.mp4'
 
 interface Character {
   id: number;
