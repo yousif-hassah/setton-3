@@ -4,7 +4,8 @@ import SpeechBubble from './SpeechBubble';
 import VideoModal from './VidoModal';
 import setton1 from './image/setton-1.png'
 import setton2 from './image/setton-2 - Copy.png'
-const video1 = "/videos/adem.mp4";
+const video1 = "https://drive.google.com/file/d/1EZm1l7sCC5Sfy-CxNp41xWVtBgpKIJp4/preview"; //==> google drive domin  the best 
+;
 
 
 interface Character {
@@ -36,6 +37,9 @@ He learns from every game how to be a well-mannered and cooperative player.
     imageUrl: setton1,
     color: "blue",
     videoUrl:video1
+
+
+
     
   },
   {
@@ -54,7 +58,7 @@ He learns from every game how to be a well-mannered and cooperative player.
     description: ".....",
     imageUrl: setton2,
     color: "orange",
-    videoUrl: "https://www.youtube.com/watch?v=kOUNDa6D66k"
+    videoUrl: ""
   },
   {
     id: 4,
@@ -63,7 +67,8 @@ He learns from every game how to be a well-mannered and cooperative player.
     description: ".....",
     imageUrl: setton2,
     color: "orange",
-     videoUrl: "https://youtu.be/jJPMnTXl63E?si=pcRYqWK5U95BW4Yr"
+     videoUrl:"" // "https://www.youtube.com/embed/kOUNDa6D66k" ==> youtube domin  the best 
+
   }
 ];
 

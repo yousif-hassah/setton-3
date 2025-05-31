@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <h3 className="text-xl  mb-4 uppercase">Resources</h3>
             <ul className="space-y-2">
-              <li><a href="https://www.youtube.com/watch?v=vCZrfA2FdUs&list=RDvCZrfA2FdUs&start_radio=1" className="text-white hover:text-orange-400 transition-colors">Release Schedule</a></li>
+              <li><a href="" className="text-white hover:text-orange-400 transition-colors">Release Schedule</a></li>
               <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Character Guides</a></li>
               <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Universe Timeline</a></li>
               <li><a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Reading Order</a></li>
