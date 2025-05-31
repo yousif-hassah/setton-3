@@ -4,7 +4,7 @@ import SpeechBubble from './SpeechBubble';
 import VideoModal from './VidoModal';
 import setton1 from './image/setton-1.png'
 import setton2 from './image/setton-2 - Copy.png'
-// import video1 from './image/adem.mp4'
+import video1 from "/adem.mp4"
 
 interface Character {
   id: number;
@@ -34,7 +34,7 @@ He learns from every game how to be a well-mannered and cooperative player.
 `,
     imageUrl: setton1,
     color: "blue",
-    videoUrl: "public/adem.mp4"
+    videoUrl: video1
     
   },
   {
