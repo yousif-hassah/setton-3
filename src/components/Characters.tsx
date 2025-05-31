@@ -53,7 +53,7 @@ He learns from every game how to be a well-mannered and cooperative player.
     description: ".....",
     imageUrl: setton2,
     color: "orange",
-    videoUrl: ""
+    videoUrl: "https://www.youtube.com/watch?v=kOUNDa6D66k"
   },
   {
     id: 4,
@@ -62,7 +62,7 @@ He learns from every game how to be a well-mannered and cooperative player.
     description: ".....",
     imageUrl: setton2,
     color: "orange",
-     videoUrl: ""
+     videoUrl: "https://youtu.be/jJPMnTXl63E?si=pcRYqWK5U95BW4Yr"
   }
 ];
 

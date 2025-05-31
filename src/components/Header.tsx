@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X,  } from 'lucide-react';
 import ComicPanel from './ComicPanel';
+import img25 from "./image/image_2025-05-23_19-57-16-Photoroom.png"
+
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +36,7 @@ const Header: React.FC = () => {
           <div className="flex items-center space-x-2">
             {/* <Zap className="text-orange-600 h-8 w-8" /> */}
         
-            <h1 className="text-3xl font-bold text-orange-600 tracking-tighter"><img src="public/image_2025-05-23_19-57-16-Photoroom.png" alt="" style={{width:"120px" ,height:"30px"}}/>
+            <h1 className="text-3xl font-bold text-orange-600 tracking-tighter"><img src={img25} alt="logo" style={{width:"120px" ,height:"30px"}} />
               <span className="text-white"></span>
             </h1>
           </div>
