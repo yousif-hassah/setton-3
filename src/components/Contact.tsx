@@ -1,7 +1,7 @@
 import React, { useState, FormEvent, useEffect } from 'react';
 import ComicPanel from './ComicPanel';
 import SpeechBubble from './SpeechBubble';
-import { Mail, MapPin, Phone, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Mail, MapPin, Phone, Instagram, Youtube } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -150,7 +150,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-bold mb-1">Email Us</h3>
                   <p className="text-gray-700">
-                    <a href="mailto:yousifhassan4247@gmail.com" className="hover:underline">setton1@gmail.com</a>
+                    <a href="mailto:yousifhassan4247@gmail.com" className="hover:underline">setton122@gmail.com</a>
                   </p>
                 </div>
               </div>
@@ -162,8 +162,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-bold mb-1">Call Us</h3>
                   <p className="text-gray-700">
-                    <a href="tel:+1234567890" className="hover:underline">+964775342678</a><br />
-                    Monday - Friday, 9am - 5pm EST
+                    <a href="tel:+1234567890" className="hover:underline">+964 7718533466</a><br />
+                    
                   </p>
                 </div>
               </div>
@@ -175,16 +175,16 @@ const Contact: React.FC = () => {
                 Stay up to date with our latest releases, behind-the-scenes content, and creator spotlights!
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="bg-purple-600 text-white p-2 rounded-full hover:bg-purple-700 transition-colors">
+                <a href="https://www.instagram.com/setton.kids?igsh=MWNma3hocjcyOW50cg== " className="bg-purple-600 text-white p-2 rounded-full hover:bg-purple-700 transition-colors">
                   <Instagram className="h-6 w-6" />
                 </a>
                 {/* <a href="#" className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors">
                   <Twitter className="h-6 w-6" />
                 </a> */}
-                <a href="#" className="bg-blue-800 text-white p-2 rounded-full hover:bg-blue-900 transition-colors">
+                {/* <a href="#" className="bg-blue-800 text-white p-2 rounded-full hover:bg-blue-900 transition-colors">
                   <Facebook className="h-6 w-6" />
-                </a>
-                <a href="#" className="bg-red-600 text-white p-2 rounded-full hover:bg-red-700 transition-colors">
+                </a> */}
+                <a href="https://youtube.com/@settonkids?si=4ZAKeBPWex_y5r8u " className="bg-red-600 text-white p-2 rounded-full hover:bg-red-700 transition-colors">
                   <Youtube className="h-6 w-6" />
                 </a>
               </div>

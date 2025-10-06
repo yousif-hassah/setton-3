@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Instagram,  Facebook, Youtube } from 'lucide-react';
+import {  Instagram,   Youtube } from 'lucide-react';
 import img25 from "./image/image_2025-05-23_19-57-16-Photoroom.png"
 
 const Footer: React.FC = () => {
@@ -16,19 +16,19 @@ const Footer: React.FC = () => {
               </h2>
             </div>
             <p className="text-gray-300 mb-6">
-              Where imagination explodes into reality! Your gateway to stories that leap off the screen.
+              Where imagination turns into reality.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-orange-600 transition-colors">
+              <a href="https://www.instagram.com/setton.kids?igsh=MWNma3hocjcyOW50cg==" className="text-white hover:text-orange-600 transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
               {/* <a href="#" className="text-white hover:text-orange-600  transition-colors">
                 <Twitter className="h-6 w-6" />
               </a> */}
-              <a href="#" className="text-white hover:text-orange-600 transition-colors">
+              {/* <a href="#" className="text-white hover:text-orange-600 transition-colors">
                 <Facebook className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-white hover:text-orange-600  transition-colors">
+              </a> */}
+              <a href="https://youtube.com/@settonkids?si=4ZAKeBPWex_y5r8u" className="text-white hover:text-orange-600  transition-colors">
                 <Youtube className="h-6 w-6" />
               </a>
             </div>
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white mt-12 pt-6 text-center text-white">
-          <p>© 2025 COMICVERSE. All characters and stories are fictional. All rights reserved.</p>
+          <p>Setton.</p>
         </div>
       </div>
     </footer>
